@@ -114,6 +114,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const productCard = document.createElement("div");
     productCard.classList.add("tamplate-produk");
+    productCard.id = "tamplate-produk";
     productCard.innerHTML = `
       <img src="${product.image}" alt="${product.name}">
       <h1>${product.name}</h1>
