@@ -1,0 +1,204 @@
+@media (max-width: 475px) {
+  #daftar,
+  #home-button {
+    display: none;
+  }
+
+  .navbar .search {
+    display: none;
+  }
+
+  .container-hero .hero {
+    line-height: 2.4rem;
+  }
+
+  .container-hero .hero h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .container-hero .hero p {
+    font-size: 1rem;
+  }
+
+  #tag-shop {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  #container-produk {
+    grid-gap: 3rem 1rem;
+  }
+
+  /* details produk */
+
+  #details-produk {
+    max-height: 30rem;
+    width: 100%;
+  }
+
+  #close-detail {
+    font-size: 0.1rem;
+  }
+
+  #details-produk .detail-produk {
+    width: 50%;
+    left: 50%;
+    top: 12%;
+    padding-right: 0;
+    padding-left: 5px;
+  }
+
+  .buttons-details {
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    width: 100%;
+  }
+
+  .detail-produk .button-detail,
+  .detail-produk .button-detail-buy {
+    margin: 0;
+    margin-top: 1rem;
+    height: 1.5rem;
+  }
+
+  #detail-produk .button-detail-buy {
+    width: 40%;
+    text-align: center;
+    padding: 0;
+  }
+
+  #detail-produk .button-detail {
+    font-size: 0.4rem;
+    width: 40%;
+  }
+
+  #detail-produk h1 {
+    font-size: 1rem;
+    letter-spacing: 1px;
+  }
+
+  #detail-produk h4 {
+    font-size: 0.5rem;
+  }
+
+  #detail-produk .sku {
+    font-size: 0.5rem;
+  }
+
+  #detail-produk select {
+    font-size: 0.8rem;
+  }
+
+  #detail-produk .qty {
+    margin-top: 0.5rem;
+  }
+
+  #detail-produk input {
+    font-size: 0.6rem;
+  }
+
+  #image-detail img {
+    height: 100%;
+    transform: translateY(0);
+  }
+
+  #detail-produk h4,
+  #detail-produk p,
+  #detail-produk a {
+    margin: 0;
+  }
+
+  #detail-produk a {
+    font-size: 0.6rem;
+    margin-top: 10px;
+  }
+
+  #details-produk #close-detail {
+    height: 1rem;
+  }
+
+  /* hamburger menu */
+  #menu-hamburger {
+    width: 100%;
+  }
+
+  /* footer */
+
+  #atas-footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    gap: 1rem;
+  }
+
+  #atas-footer .atas-footer-1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  #atas-footer .atas-footer-1 ul li a,
+  #atas-footer .atas-footer-2 ul li a {
+    font-size: 0.5rem;
+  }
+
+  #atas-footer .atas-footer-1 ul li,
+  #atas-footer .atas-footer-2 ul li {
+    padding: 0;
+  }
+
+  form .email {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  form .email p {
+    text-align: center;
+    font-size: 0.8rem;
+  }
+
+  form .email input {
+    width: 65%;
+    font-size: 0.8rem;
+    font-weight: 200;
+    font-family: "Poppins";
+  }
+
+  form .subscribe-option {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  form .subscribe-option label {
+    font-size: 0.6rem;
+  }
+
+  form .subscribe-option input {
+    width: 13px;
+    height: 13px;
+  }
+
+  form .subscribe-option input:checked::before {
+    font-size: 12px;
+    top: -3px;
+    left: 1px;
+  }
+
+  form .medsos-footer {
+    height: 3rem;
+  }
+
+  /* profil */
+  #section-profile {
+    width: 100%;
+  }
+}
