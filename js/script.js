@@ -96,7 +96,7 @@ document.addEventListener("DOMContentLoaded", () => {
     { name: "Produk 3", price: 130000, image: "image/bag-03.jpg" },
     { name: "Produk 4", price: 130000, image: "image/bag-04.jpg" },
     { name: "Produk 5", price: 130000, image: "image/bag-05.jpg" },
-    { name: "Produk 6", price: 130000, image: "image/bag-06.jpg" },
+    // { name: "Produk 6", price: 130000, image: "image/bag-06.jpg" },
     { name: "Produk 7", price: 130000, image: "image/bag-07.jpg" },
     { name: "Produk 8", price: 130000, image: "image/bag-08.jpg" },
   ];

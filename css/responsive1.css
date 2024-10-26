@@ -1,4 +1,4 @@
-@media (max-width: 475px) {
+@media (max-width: 600px) {
   #daftar,
   #home-button {
     display: none;
@@ -33,12 +33,12 @@
   /* details produk */
 
   #details-produk {
-    max-height: 30rem;
+    height: 20rem;
     width: 100%;
   }
 
   #close-detail {
-    font-size: 0.1rem;
+    height: 0.1rem;
   }
 
   #details-produk .detail-produk {
@@ -67,6 +67,7 @@
     width: 40%;
     text-align: center;
     padding: 0;
+    font-size: 0.5rem;
   }
 
   #detail-produk .button-detail {
@@ -200,5 +201,251 @@
   /* profil */
   #section-profile {
     width: 100%;
+  }
+
+  /* keranjang */
+
+  #keranjang {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    background-color: #f5f5f7;
+    right: -100%;
+    overflow-y: auto;
+    top: 0;
+    z-index: 990;
+    transition: 0.4s ease-in-out;
+    border: 1px solid black;
+  }
+
+  #keranjang.active {
+    right: 0;
+  }
+
+  .fillter.blur::before {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  #daftar,
+  #home-button {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  .container-hero .hero h1 {
+    font-size: 4rem;
+    text-align: center;
+  }
+
+  /* footer */
+  #atas-footer .atas-footer-1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  #atas-footer {
+    gap: 3rem;
+  }
+
+  /* details produk */
+
+  #details-produk {
+    height: 30rem;
+    width: 80%;
+  }
+
+  #details-produk .detail-produk {
+    width: 50%;
+    left: 50%;
+    top: 12%;
+    padding-right: 0;
+    padding-left: 5px;
+  }
+
+  .buttons-details {
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    width: 100%;
+  }
+
+  .detail-produk .button-detail,
+  .detail-produk .button-detail-buy {
+    margin: 0;
+    margin-top: 1rem;
+    height: 2rem;
+  }
+
+  #detail-produk .button-detail-buy {
+    width: 40%;
+    text-align: center;
+    padding: 0;
+  }
+
+  #detail-produk .button-detail {
+    font-size: 0.8rem;
+    width: 40%;
+  }
+
+  #detail-produk h1 {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+  }
+
+  #detail-produk h4 {
+    font-size: 0.8rem;
+  }
+
+  #detail-produk .sku {
+    font-size: 0.6rem;
+  }
+
+  #detail-produk select {
+    font-size: 1rem;
+  }
+
+  #detail-produk .qty {
+    margin-top: 0.8rem;
+  }
+
+  #detail-produk input {
+    font-size: 0.8rem;
+  }
+
+  #image-detail img {
+    height: 100%;
+    transform: translateY(0);
+  }
+
+  #detail-produk h4,
+  #detail-produk p,
+  #detail-produk a {
+    margin: 0;
+  }
+
+  #detail-produk a {
+    font-size: 0.9rem;
+    margin-top: 10px;
+  }
+
+  #details-produk #close-detail {
+    height: 1.3rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  #details-produk {
+    height: 28rem;
+    width: 80%;
+  }
+
+  #details-produk #close-detail {
+    height: 1.5rem;
+  }
+
+  #details-produk .detail-produk {
+    width: 50%;
+    left: 50%;
+    top: 12%;
+    padding-right: 0;
+    padding-left: 5px;
+  }
+
+  .buttons-details {
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    width: 100%;
+  }
+
+  .detail-produk .button-detail,
+  .detail-produk .button-detail-buy {
+    margin: 0;
+    margin-top: 1rem;
+    height: 2.5rem;
+  }
+
+  #detail-produk .button-detail-buy {
+    width: 40%;
+    text-align: center;
+    padding: 0;
+    font-size: 1.2rem;
+  }
+
+  #detail-produk .button-detail {
+    font-size: 1.2rem;
+    width: 40%;
+  }
+
+  #detail-produk h1 {
+    font-size: 2rem;
+    letter-spacing: 1px;
+  }
+
+  #detail-produk h4 {
+    font-size: 1.3rem;
+  }
+
+  #detail-produk .sku {
+    font-size: 1rem;
+  }
+
+  #detail-produk select {
+    font-size: 1.3rem;
+  }
+
+  #detail-produk .qty {
+    margin-top: 1rem;
+  }
+
+  #detail-produk input {
+    font-size: 1rem;
+  }
+
+  #image-detail img {
+    height: 100%;
+    transform: translateY(-30px);
+  }
+
+  #detail-produk h4,
+  #detail-produk p,
+  #detail-produk a {
+    margin: 0;
+  }
+
+  #detail-produk a {
+    font-size: 0.9rem;
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #details-produk {
+    max-height: 30rem;
+    width: 60%;
+  }
+
+  .image-detail img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+@media (min-width: 1330px) {
+  #details-produk {
+    height: 28rem;
+    width: 60%;
+  }
+
+  #image-detail img {
+    height: 100%;
+    transform: translateY(0);
   }
 }
